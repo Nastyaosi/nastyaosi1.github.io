@@ -1,0 +1,23 @@
+.info-box {
+	font-style: italic;
+	padding: 15px;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+}
+
+.policy-body .policy-picture {
+	float: left;
+	margin: 0 20px 10px 0;
+}
+
+.policy-body {
+	text-align: justify;
+}
+
+.policy-check {
+
+}
+
+.policy-error {
+	display: none;
+}

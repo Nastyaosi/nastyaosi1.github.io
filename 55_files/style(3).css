@@ -1,0 +1,66 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+
+/* †ˆ›‰ */
+.markItUp .markItUpButton1 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: 0 0;
+}
+
+/* Š“‘ˆ‚ */
+.markItUp .markItUpButton2 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: -60px 0;
+}
+
+/* „—…Š“’›‰ */
+.markItUp .markItUpButton3 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: -140px 0;
+}
+
+/* ‡€—…Š“’›‰ */
+.markItUp .markItUpButton4 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: -120px 0;
+}
+
+/* Œ€Šˆ‚€›‰ ‘ˆ‘Š */
+.markItUp .markItUpButton5 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: -20px 0;
+}
+
+/* “Œ…‚€›‰ ‘ˆ‘Š */
+.markItUp .markItUpButton6 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: -80px 0;
+}
+
+/* “Š’ ‘ˆ‘Š€ */
+.markItUp .markItUpButton7 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: -20px 0;
+    height:3px;
+    margin-top: 5px;
+}
+
+/* “‹ */
+.markItUp .markItUpButton8 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: -500px 0;
+}
+
+/* –ˆ’€’€ */
+.markItUp .markItUpButton9 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: -220px 0;
+}
+
+/* Š„ */
+.markItUp .markItUpButton10 a {
+    background: url(images/icons.gif) no-repeat;
+    background-position: -100px -20px;
+}

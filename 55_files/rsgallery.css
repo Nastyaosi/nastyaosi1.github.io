@@ -1,0 +1,16 @@
+.rs-gallery .rs-gallery-img {
+    padding: 5px;
+    margin: 5px;
+    background-color: #fff;
+    border-bottom: 1px solid #d6d5d5;
+    border-right: 1px solid #e9e9e9;
+}
+
+.rs-gallery img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.rs-gallery-p {
+    margin: 5px 0 5px 0;
+}

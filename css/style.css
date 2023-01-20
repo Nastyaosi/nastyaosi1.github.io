@@ -1,0 +1,326 @@
+.text-block1 {
+  margin-left: 200px;
+}
+
+.line {
+  border-left: 3px solid rgb(255, 121, 121);
+  padding-left: 10px;
+}
+
+.line1 {
+  border: 3px solid red;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.jpg {
+  width: 100px;
+}
+
+.body {
+  background-color: #B0E0E6;
+}
+
+.left {
+  float: left;
+  width: 300px;
+
+}
+
+.right {
+
+  height: 100%;
+  left: 120px;
+  margin-left: 200px;
+
+}
+
+#button {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #00bfff;
+  width: 51px;
+  height: 51px;
+  font: 40px Georgia;
+  color: #fff;
+  text-align: center;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+#s_panel {
+  position: fixed;
+  top: 0px;
+  left: -120px;
+  background: #FA8072;
+  width: 110px;
+  height: 100%;
+  padding: 100px 0 0 0;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;
+  font: 20px Georgia;
+}
+
+#button:hover {
+  left: 100px;
+}
+
+#button:hover #s_panel {
+  left: 0;
+}
+
+img.wdth {
+  width: 100px;
+  height: 100px;
+}
+
+.div-table {
+  display: table;
+  width: auto;
+
+}
+
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+
+.div-table-col {
+  float: left;
+  display: table-column;
+  width: 200px;
+
+}
+
+.preview {
+  width: 50px;
+}
+
+.gallerycontainer {
+  position: relative;
+}
+
+.thumbnail img {
+  border: 1px solid white;
+  margin: 0 5px 5px 0;
+  text-decoration: none !important;
+}
+
+.thumbnail:hover {
+  background-color: transparent;
+}
+
+.thumbnail:hover img {
+  border: 1px solid blue;
+}
+
+.thumbnail span {
+  position: absolute;
+  background-color: lightyellow;
+  padding: 5px;
+  left: -1200px;
+  visibility: hidden;
+  color: black;
+  text-decoration: none;
+}
+
+.thumbnail span img {
+  border-width: 0;
+  padding: 2px;
+}
+
+.thumbnail:hover span {
+  visibility: visible;
+  top: 0;
+  left: 230px;
+  z-index: 50;
+}
+
+.big {
+  width: 400px;
+}
+
+.small {
+  width: 100px;
+}
+
+.body {
+  width: 100%;
+  margin: 0px;
+}
+
+.rightcol {
+  vertical-align: top;
+  text-align: left;
+  padding: 0 50px 20px 10px;
+}
+
+.rightco {
+  vertical-align: top;
+  text-align: left;
+  padding: 10 50px 50px 50px;
+}
+
+.rightcol1 {
+  vertical-align: top;
+  text-align: left;
+  padding: 0 250px 20px 250px;
+}
+
+.rightcolk {
+  vertical-align: top;
+  text-align: left;
+  padding: 0 0px 0px 0px;
+}
+
+.rightcolk2 {
+  vertical-align: top;
+  text-align: left;
+  padding: 0 50px 0px 0px;
+}
+
+.rightcolk1 {
+  vertical-align: top;
+  text-align: left;
+  padding: 5 0px 0px 130px;
+}
+
+.main-content {
+  float: left;
+  padding: 0 0px 20px 100px;
+
+}
+
+.main-contenty {
+  float: left;
+  padding: 0 40px 20px 20px;
+
+}
+.main-contenty111 {
+  float: left;
+  padding: 0 0px 100px 0px;
+
+}
+.main-contentp {
+  float: right;
+  padding: 5 40px 20px 200px;
+
+}
+
+.main-contenti {
+  float: center;
+  padding: 0 40px 20px 725px;
+
+}
+
+.main-contentc {
+  float: center;
+  padding: 0 40px 20px 725px;
+
+}
+
+.main-contentp {
+  float: center;
+  padding: 0 40px 20px 10px;
+
+}
+
+.main-contentk {
+  float: center;
+  padding: 0 40px 20px 10px;
+
+
+}
+
+.right-td {
+  margin-left: 100px;
+}
+
+
+
+p {
+  border: 1px solid gray;
+  padding: 20px;
+}
+
+.borderexample {
+
+  border-style: solid;
+  border-color: #287EC7;
+}
+
+.big {
+  width: 800px;
+}
+
+.small {
+  width: 10px;
+}
+
+.hover_img {
+  position: relative;
+}
+
+.hover_img a span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.hover_img a:hover span {
+  display: block;
+}
+
+.line {
+  margin-block-start: 0;
+}
+
+.header {
+  background-color: #FA8072;
+  height: 45px;
+  padding-top: 6px;
+  font-size: 30;
+  color: white;
+}
+
+.header1 {
+  background-color: #FA8072;
+  height: 33px;
+  padding-top: 6px;
+  font-size: 25;
+  color: rgb(0, 0, 0);
+}
+
+.header12 {
+  background-color: #FA8072;
+  height: 25px;
+  padding-top: 3px;
+  font-size: 20;
+  color: rgb(0, 0, 0);
+}
+
+.example-image {
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+.aligncenter {
+  text-align: center;
+  
+}
